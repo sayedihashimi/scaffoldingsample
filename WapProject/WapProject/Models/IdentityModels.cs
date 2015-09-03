@@ -29,5 +29,7 @@ namespace WapProject.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<WapProject.Models.Person> People { get; set; }
     }
 }
